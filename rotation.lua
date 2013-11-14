@@ -25,7 +25,7 @@ ProbablyEngine.rotation.register(259, "PEWinning",{
     "player.combopoints >= 2"
   }},
   { "Envenom", {
-    "player.buff(Slice and Dice).duration <=3",
+    "player.buff(Slice and Dice).duration <= 3",
     "player.combopoints > 0"
   }},
   { "Rupture", {
