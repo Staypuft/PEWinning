@@ -6,7 +6,7 @@ ProbablyEngine.rotation.register(259, "PEWinning",{
 
   -- Interrupts
   { "Kick", "modifier.interrupts" },
-  { "Blind", { "modifier.interrupts", "player.spell.cooldown(Kick)" }},
+  { "Blind", { "modifier.interrupts", "player.spell(Kick).cooldown" }},
 
   -- Cooldowns
   { "Shadow Blades", "modifier.cooldowns" },
