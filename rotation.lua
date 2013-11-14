@@ -42,7 +42,7 @@ ProbablyEngine.rotation.register(259, "PEWinning",{
   { "Throw",
     {
     "target.range > 5",
-    "target.range <=50",
+    "target.range <= 50",
     "!player.moving"
     }},
 })
