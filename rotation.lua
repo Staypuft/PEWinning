@@ -37,10 +37,7 @@ ProbablyEngine.rotation.register(259, "PEWinning",{
   { "Fan of Knives", "modifier.multitarget" },
   { "Mutilate", "target.health > 35" },
   { "Dispatch", "target.health < 35" },
-  { "Expose Armor",
-    {
-    "!target.debuff(113746).any"
-    }},
+  { "Expose Armor", "!target.debuff(113746).any" },
   --Ranged
   { "Throw",
     {
