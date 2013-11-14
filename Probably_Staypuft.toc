@@ -1,0 +1,6 @@
+## Interface: 50400
+## Title: Probably - Staypuftass
+## Notes: ProbablyEngine Custom Assassination Rogue
+## Dependencies: Probably
+
+rotation.lua
