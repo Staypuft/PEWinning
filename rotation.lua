@@ -1,5 +1,5 @@
 -- SPEC ID 259
-ProbablyEngine.rotation.register(259, "Staypuftass",{
+ProbablyEngine.rotation.register(259, "PEWinning",{
 
   -- Buffs
   { "Deadly Poison", "!player.buff(Deadly Poison)" },
@@ -37,18 +37,15 @@ ProbablyEngine.rotation.register(259, "Staypuftass",{
   { "Fan of Knives", "modifier.multitarget" },
   { "Mutilate", "target.health > 35" },
   { "Dispatch", "target.health < 35" },
-  { "Expose Armor"
+  { "Expose Armor",
     {
-    "!target.debuff(113746).any",
-    }
-  }
+    "!target.debuff(113746).any"
+    }},
   --Ranged
   { "Throw",
     {
     "target.range > 5",
     "target.range <=50",
-    "!player.moving",
-    }
-  }
-
+    "!player.moving"
+    }},
 })
